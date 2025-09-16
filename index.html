@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Такси Самара</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center bg_header">
+        <ul class="d-flex gap-3 menu">
+          <li><a href="/tarify" >Тарифы</a></li>
+           <li><a href="/tarify" >Тарифы</a></li>
+            <li><a href="/tarify" >Тарифы</a></li>
+             <li><a href="/tarify" >Тарифы</a></li>
+              <li><a href="/tarify" >Тарифы</a></li>
+               <li><a href="/tarify" >Тарифы</a></li>
+        </ul>
+        
+        <div class="menu_social_media d-flex gap-2">
+            <a href="">
+              <svg width="45" height="45" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="55" height="55" rx="27.5" fill="#EEEEEE"/>
+<path d="M38.1281 16.8651C36.7458 15.4762 35.0995 14.375 33.2852 13.6256C31.4708 12.8762 29.5247 12.4936 27.5603 12.5001C19.3291 12.5001 12.6206 19.1751 12.6206 27.365C12.6206 29.99 13.3141 32.54 14.6106 34.79L12.5 42.5L20.4146 40.43C22.6005 41.615 25.0578 42.245 27.5603 42.245C35.7915 42.245 42.5 35.57 42.5 27.38C42.5 23.4051 40.9472 19.6701 38.1281 16.8651ZM27.5603 39.725C25.3291 39.725 23.1432 39.125 21.2286 38L20.7764 37.73L16.0729 38.96L17.3241 34.4L17.0226 33.935C15.7827 31.9656 15.1245 29.6889 15.1231 27.365C15.1231 20.5551 20.701 15.0051 27.5452 15.0051C30.8618 15.0051 33.9824 16.2951 36.3191 18.6351C37.4763 19.7809 38.3933 21.1439 39.017 22.645C39.6407 24.1462 39.9586 25.7557 39.9523 27.38C39.9824 34.19 34.4045 39.725 27.5603 39.725ZM34.3744 30.485C33.9975 30.305 32.1583 29.405 31.8266 29.27C31.4799 29.15 31.2387 29.09 30.9824 29.45C30.7261 29.825 30.0176 30.665 29.8065 30.905C29.5955 31.16 29.3693 31.19 28.9925 30.995C28.6156 30.815 27.4095 30.41 25.9925 29.15C24.8769 28.16 24.1382 26.945 23.9121 26.57C23.701 26.195 23.8819 26 24.0779 25.805C24.2437 25.64 24.4548 25.37 24.6357 25.16C24.8166 24.95 24.892 24.785 25.0126 24.545C25.1332 24.29 25.0729 24.0801 24.9824 23.9001C24.892 23.7201 24.1382 21.8901 23.8367 21.1401C23.5352 20.4201 23.2186 20.5101 22.9925 20.4951H22.2688C22.0126 20.4951 21.6206 20.5851 21.2739 20.9601C20.9422 21.3351 19.9774 22.2351 19.9774 24.065C19.9774 25.895 21.3191 27.665 21.5 27.905C21.6809 28.16 24.1382 31.91 27.8769 33.515C28.7663 33.905 29.4598 34.13 30.0025 34.295C30.892 34.58 31.706 34.535 32.3543 34.445C33.0779 34.34 34.5703 33.545 34.8719 32.675C35.1884 31.805 35.1884 31.07 35.0829 30.905C34.9774 30.74 34.7513 30.665 34.3744 30.485Z" fill="black"/>
+</svg>
+            </a>
+
+            <a href="">
+              <svg width="45" height="45" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="55" height="55" rx="27.5" fill="#EEEEEE"/>
+<path d="M39.5 27.5C39.5 30.6826 38.2357 33.7348 35.9853 35.9853C33.7348 38.2357 30.6826 39.5 27.5 39.5C24.3174 39.5 21.2652 38.2357 19.0147 35.9853C16.7643 33.7348 15.5 30.6826 15.5 27.5C15.5 24.3174 16.7643 21.2652 19.0147 19.0147C21.2652 16.7643 24.3174 15.5 27.5 15.5C30.6826 15.5 33.7348 16.7643 35.9853 19.0147C38.2357 21.2652 39.5 24.3174 39.5 27.5ZM27.5 42.5C35.7845 42.5 42.5 35.7845 42.5 27.5C42.5 19.2155 35.7845 12.5 27.5 12.5C19.2155 12.5 12.5 19.2155 12.5 27.5C12.5 35.7845 19.2155 42.5 27.5 42.5ZM28.037 23.573C26.579 24.18 23.6635 25.4365 19.2905 27.3425C18.5795 27.6245 18.2075 27.9005 18.1745 28.1705C18.1175 28.6265 18.689 28.8065 19.4675 29.051L19.7945 29.156C20.5595 29.405 21.5915 29.696 22.127 29.708C22.613 29.718 23.155 29.518 23.753 29.108C27.839 26.348 29.948 24.9535 30.08 24.9245C30.1745 24.9035 30.3035 24.8765 30.3905 24.9545C30.479 25.0325 30.47 25.1795 30.461 25.22C30.404 25.4615 28.16 27.548 26.999 28.6265C26.655 28.9505 26.3135 29.277 25.9745 29.606C25.2635 30.2915 24.7295 30.806 26.0045 31.646C27.296 32.498 28.5995 33.347 29.8595 34.2455C30.4805 34.6895 31.0385 35.0855 31.7285 35.024C32.129 34.9865 32.543 34.61 32.753 33.485C33.251 30.83 34.2275 25.073 34.4525 22.7C34.4656 22.5032 34.457 22.3055 34.427 22.1105C34.4093 21.9536 34.3333 21.809 34.214 21.7055C34.034 21.5585 33.7565 21.5285 33.6335 21.53C33.0695 21.5405 32.204 21.8405 28.0385 23.573" fill="black"/>
+</svg>
+            </a>
+
+            <a href="">
+              <svg width="45" height="45" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="55" height="55" rx="27.5" fill="#EEEEEE"/>
+<path d="M15.2135 25.0657C18.0121 31.1625 22.9839 35.9947 29.1557 38.6167L30.1468 39.0586C31.2443 39.5476 32.4791 39.6333 33.6336 39.3006C34.7881 38.968 35.7882 38.2382 36.4577 37.24L37.7534 35.3092C37.9561 35.0064 38.0382 34.6385 37.9834 34.2782C37.9287 33.9178 37.741 33.5911 37.4575 33.3623L33.0676 29.8185C32.9147 29.6951 32.7385 29.604 32.5495 29.5505C32.3605 29.497 32.1627 29.4823 31.9679 29.5072C31.7731 29.5321 31.5854 29.5962 31.4159 29.6955C31.2465 29.7949 31.0989 29.9275 30.9819 30.0853L26.8889 31.9444C23.402 30.2213 21.87 28.5549 20.1485 25.0657L23.4235 22.5223C23.5812 22.4053 23.7138 22.2576 23.813 22.088C23.9123 21.9185 23.9763 21.7306 24.0013 21.5357C24.0262 21.3408 24.0115 21.1429 23.958 20.9538C23.9046 20.7647 23.8135 20.5884 23.6902 20.4354L20.1485 16.0428C19.9199 15.7591 19.5933 15.5714 19.2332 15.5166C18.873 15.4618 18.5054 15.5439 18.2028 15.7468L16.26 17.0506C15.2564 17.724 14.5243 18.7321 14.1941 19.8952C13.8639 21.0583 13.9571 22.3009 14.4571 23.4017L15.2135 25.0657Z" fill="black"/>
+</svg>
+
+            </a>
+        </div>
+
+        <button class="mobile-menu-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu"> <i class="bi bi-list"></i> </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="row hero-content">
+        <div class="col-lg-7">
+          <h1 class="hero-title">Такси Самара по всей России. Быстро, надежно, комфортно</h1>
+          <p class="hero-subtitle">Служба заказов такси Самара "Регион". Предоставляем услуги такси по выгодным ценам. Огромный спектр услуг: "прикурить" авто при севшем аккумуляторе, "трезвый водитель", детское такси, услуга доставка, такси с детским креслом/люлькой, такси с чеком БСО, такси с квитанцией, возможна оплата банковской картой.</p>
+          <button class="btn btn_order btn_hero" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Заказать такси прямо сейчас</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+  <div class="container">
+    <h2>Наши тарифы</h2>
+    <div class="cards-container">
+      <div class="card"> <img src="img/image 1 (12).png" class="card-img-top" alt="photocardtarife">
+        <div class="card-body "> <a href="https://xn----7sbybhiuvgfca2ktb.xn--p1ai/ekonom-klass/" class="card-title fw-bold">Эконом класс (От 20 руб. за км)</a>
+        </div>
+      </div>
+      <div class="card"> <img src="img/image 1 (13).png" class="card-img-top" alt="photocardtarife">
+        <div class="card-body "> <a href="https://xn----7sbybhiuvgfca2ktb.xn--p1ai/ekonom-klass/" class="card-title fw-bold">Комфорт класс (От 25 руб. за км)</a>
+        </div>
+      </div>
+      <div class="card"> <img src="img/image 1 (14).png" class="card-img-top" alt="photocardtarife">
+        <div class="card-body "> <a href="https://xn----7sbybhiuvgfca2ktb.xn--p1ai/ekonom-klass/" class="card-title fw-bold">Комфорт Plus (От 28 руб. за км)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <section class="section">
+  <div class="container">
+    <h2>Наши предложения</h2>
+
+    <div class="list_servise_wrapper">
+      <div class="left">
+        <div class="servise_grid">
+          <a href="">Корпоративное такси</a>
+           <a href="">Такси в аэропорт Курумоч </a>
+            <a href="">Трезвый водитель</a>
+
+             <a href="">Корпоративное такси</a>
+              <a href="">Корпоративное такси</a>
+               <a href="">Корпоративное такси</a>
+                <a href="">Корпоративное такси</a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="img/image 11.png" alt="photo">
+      </div>
+    </div>
+  </div>
+ </section>
+
+<section class="section">
+      <div class="container">
+             <h2>Рассчитать стоимость</h2>
+
+             <div class="calculate_cont card" id="calculate">
+        <div class="input_wrapper">
+            <div class="input-group">
+                <input type="text" id="cityFrom" class="form-control" placeholder="Выберите пункт отправления" />
+            </div>
+            <div class="input-group">
+                <input type="text" id="cityTo" class="form-control" placeholder="Выберите пункт прибытия" />
+            </div>
+        </div>
+        <div class="input-group">
+            <select id="tariff" class="form-select">
+               <option value="20" />Эконом класс (от 20 &#8381;/км)
+    <option value="25" />Комфорт класс (от 25 &#8381;/км)
+    <option value="28" />Комфорт Plus (от 28 &#8381;/км)
+    <option value="20" />Универсал (от 20 &#8381;/км)
+    <option value="40" />Бизнес класс (от 40 &#8381;/км)
+    <option value="45" />Минивэн (от 45 &#8381;/км)      
+
+</select>
+        </div>
+        <div class="input-group">
+            
+            <select id="services" class="form-select">
+                <option value="0" />Машина для некурящих (Бесплатно)
+                <option value="100" />Курящий салон (+100 &#8381;)
+                <option value="150" />Детское кресло, доступно только в классе комфорт (+150 &#8381;)
+                <option value="150" />Поездка с животным (+150 &#8381;)
+                <option value="0" />Такси с кондиционером (бесплатно)
+
+<option value="0" />Такси без рекламы (бесплатно)
+<option value="0" />Желтый автомобиль (бесплатно)
+
+<option value="150" />Такси с лыжами и сноубордом (+150 &#8381;)
+
+<option value="250" />Помощь водителя (+250 &#8381;)
+
+            </select>
+        </div>
+        <button class="btn_price_taxi" onclick="calculateCost()">Рассчитать стоимость</button>
+        <div class="result" id="result"></div>
+        <div id="map" style="width: 100%; height: 200px; margin-top: 20px; display: none;"></div>
+    </div>
+
+   
+             </div>
+   </section>
+
+  
+
+
+ <section class="section">
+  <div class="container">
+    <h2>Наши направления</h2>
+
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Самарская область
+      </button>
+    </div>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+         <a href="">Самара - Питер</a>
+         <a href="">Самара - Питер</a>  
+         <a href="">Самара - Питер</a>
+         <a href="">Самара - Питер</a>
+         <a href="">Самара - Питер</a>
+         <a href="">Самара - Питер</a>
+         <a href="">Самара - Питер</a>
+         <a href="">Самара - Питер</a>
+         <a href="">Самара - Питер</a>
+         <a href="">Самара - Питер</a>
+      
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Accordion Item #2
+      </button>
+    </div>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Accordion Item #3
+      </button>
+    </div>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+  </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=d3b3d20b-6c57-4626-b184-69cda98f0559&suggest_apikey=0d3aa57b-7df0-49af-a363-3a7b72745602&lang=ru_RU"
+    type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+     <script>
+        $(document).ready(function() {
+        // Инициализация маски для телефона
+        $('#phone').inputmask('+79999999999');
+        
+        // Валидация формы при отправке
+        $('#taxiForm').on('submit', async function(event) {
+            event.preventDefault();
+            
+            // Проверка валидности формы
+            let isValid = true;
+            const form = this;
+            
+            // Проверяем все обязательные поля
+            $(form).find('input[required], select[required]').each(function() {
+                const field = $(this);
+                const errorElement = $(`#${field.attr('id')}-error`);
+                
+                if (!field.val() || (field.attr('id') === 'phone' && field.val().includes('_'))) {
+                    field.addClass('error');
+                    errorElement.show();
+                    isValid = false;
+                } else {
+                    field.removeClass('error');
+                    errorElement.hide();
+                }
+            });
+            
+            if (!isValid) {
+                return;
+            }
+            
+            const submitBtn = $(this).find('.btn_price_taxi');
+            submitBtn.prop('disabled', true);
+            submitBtn.text('Отправка...');
+            
+            try {
+                const name = $('#name').val();
+                const phone = $('#phone').val();
+                const from = $('#from').val();
+                const to = $('#to').val();
+                const datetime = $('#datetime').val();
+                const tariff = $('#tariff').val();
+                const notes = $('#notes').val();
+                
+                // Рассчитываем расстояние
+                const distance = await calculateDistance(from, to);
+                const pricePerKm = parseFloat(tariff);
+                const totalPrice = Math.round(distance * pricePerKm);
+                
+                // Форматируем дату и время для вывода
+                const dateObj = new Date(datetime);
+                const formattedDate = dateObj.toLocaleDateString('ru-RU', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric'
+                });
+                const formattedTime = dateObj.toLocaleTimeString('ru-RU', {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                
+                // Отправляем в Telegram
+                await sendToTelegram({
+                    name, 
+                    phone, 
+                    from, 
+                    to, 
+                    distance, 
+                    tariff: $('#tariff option:selected').text(),
+                    totalPrice,
+                    notes,
+                    date: formattedDate,
+                    time: formattedTime
+                });
+                
+                alert('Заказ успешно отправлен!\nМы свяжемся с вами в ближайшее время.');
+                form.reset();
+            } catch (error) {
+                console.error('Ошибка:', error);
+                alert('Ошибка: ' + error.message);
+            } finally {
+                submitBtn.prop('disabled', false);
+                submitBtn.text('Отправить заявку');
+            }
+        });
+        
+        // Убираем ошибку при начале ввода
+        $('input, select').on('input change', function() {
+            const field = $(this);
+            if (field.val()) {
+                field.removeClass('error');
+                $(`#${field.attr('id')}-error`).hide();
+            }
+        });
+    });
+
+    // Функция расчета расстояния
+    function calculateDistance(from, to) {
+        return new Promise((resolve, reject) => {
+            if (!from || !to) {
+                reject(new Error('Укажите пункты отправления и прибытия'));
+                return;
+            }
+            
+            ymaps.route([from, to], {
+                mapStateAutoApply: false
+            }).then(function(route) {
+                const distance = route.getLength() / 1000; // в километрах
+                resolve(distance);
+            }).catch(function(error) {
+                reject(new Error('Не удалось рассчитать маршрут. Проверьте названия населенных пунктов.'));
+            });
+        });
+    }
+
+    // Функция отправки в Telegram с красивым форматированием
+    async function sendToTelegram(data) {
+        const botToken = '8453416626:AAE05Yi-ClG-GJdzr4gsFz0z5X0_F62jIH0';
+        const chatId = '-1003007664382';
+        
+        // Красивое форматирование с HTML
+        const text = `
+<b>🚕 НОВЫЙ ЗАКАЗ ТАКСИ (Новый сайт Курумоч)</b>
+
+<b>👤 КЛИЕНТ</b>
+<b>ФИО:</b> ${escapeHtml(data.name)}
+<b>Телефон:</b> <code>${escapeHtml(data.phone)}</code>
+
+<b>📍 Маршрут:</b>
+${escapeHtml(data.from)} → ${escapeHtml(data.to)}
+<b>Расстояние:</b> ${data.distance.toFixed(1)} км
+
+<b>📅 Дата и время:</b>
+${escapeHtml(data.date)} в ${escapeHtml(data.time)}
+
+<b>💰 Тариф:</b> ${escapeHtml(data.tariff)}
+<b>💵 Стоимость:</b> <b>${data.totalPrice} руб.</b>
+
+<b>📝 Примечания:</b>
+${data.notes ? escapeHtml(data.notes) : 'нет'}
+        `.trim();
+        
+        const url = `https://core.telegram.org/bot${botToken}/sendMessage`;
+        
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                chat_id: chatId,
+                text: text,
+                parse_mode: 'HTML',
+                disable_web_page_preview: true
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (!result.ok) {
+            throw new Error('Ошибка отправки заказа');
+        }
+    }
+
+    // Функция для экранирования HTML-символов
+    function escapeHtml(text) {
+        if (!text) return '';
+        return text.toString()
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+
+        let myMap;
+
+        function toggleServices() {
+            const servicesSelect = document.getElementById('services');
+            const toggleButton = document.getElementById('toggleServicesButton');
+
+            if (servicesSelect.style.display === 'none') {
+                servicesSelect.style.display = 'block';
+                toggleButton.textContent = ''; // Скрыть текст кнопки
+            } else {
+                servicesSelect.style.display = 'none';
+                toggleButton.textContent = 'Выбрать дополнительные услуги'; // Вернуть текст
+            }
+        }
+
+        function calculateCost() {
+            var cityFrom = document.getElementById('cityFrom').value.trim();
+            var cityTo = document.getElementById('cityTo').value.trim();
+            var tariff = parseFloat(document.getElementById('tariff').value);
+            var selectedServices = Array.from(document.getElementById('services').selectedOptions).map(option => parseFloat(option.value));
+
+            if (!cityFrom || !cityTo) {
+                alert("Пожалуйста, заполните все поля.");
+                return;
+            }
+
+            ymaps.ready(function () {
+                var geocoderFrom = ymaps.geocode(cityFrom);
+                var geocoderTo = ymaps.geocode(cityTo);
+
+                Promise.all([geocoderFrom, geocoderTo]).then(function (res) {
+                    if (res[0].geoObjects.getLength() === 0 || res[1].geoObjects.getLength() === 0) {
+                        alert('Не удалось найти указанные города. Проверьте правильность ввода.');
+                        return;
+                    }
+
+                    var coordsFrom = res[0].geoObjects.get(0).geometry.getCoordinates();
+                    var coordsTo = res[1].geoObjects.get(0).geometry.getCoordinates();
+
+                    ymaps.route([coordsFrom, coordsTo]).then(function (route) {
+                        if (!route) {
+                            alert('Не удалось построить маршрут между указанными точками.');
+                            return;
+                        }
+
+                        var distance = route.getLength() / 1000;
+                        var baseCost = distance * tariff;
+
+                        var servicesCost = selectedServices.reduce((sum, cost) => sum + cost, 0);
+
+                        var totalCost = baseCost + servicesCost;
+
+                        document.getElementById('result').innerText = `Стоимость поездки: ${totalCost.toFixed(2)} руб (Расстояние: ${distance.toFixed(2)} км)`;
+
+                        document.getElementById('map').style.display = 'block';
+
+                        if (myMap) {
+                            myMap.destroy();
+                        }
+
+                        myMap = new ymaps.Map("map", {
+                            center: coordsFrom,
+                            zoom: 10
+                        });
+
+                        myMap.geoObjects.add(route.getPaths());
+                    }).catch(function (error) {
+                        alert('Ошибка при построении маршрута: ' + error.message);
+                    });
+                }).catch(function (error) {
+                    alert('Ошибка при геокодировании: ' + error.message);
+                });
+            });
+        }
+
+
+
+          document.addEventListener('DOMContentLoaded', function() {
+            const slider = document.getElementById('slider');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const dotsContainer = document.getElementById('sliderDots');
+            
+            const cards = slider.querySelectorAll('.card');
+            const cardCount = cards.length;
+            let currentPosition = 0;
+            let cardsPerView = 3;
+            
+            
+            
+            // Создаем индикаторы-точки
+            function createDots() {
+                dotsContainer.innerHTML = '';
+                const dotCount = Math.ceil(cardCount / cardsPerView);
+                
+                for (let i = 0; i < dotCount; i++) {
+                    const dot = document.createElement('div');
+                    dot.classList.add('dot');
+                    if (i === 0) dot.classList.add('active');
+                    
+                    dot.addEventListener('click', () => {
+                        currentPosition = i * cardsPerView;
+                        updateSlider();
+                    });
+                    
+                    dotsContainer.appendChild(dot);
+                }
+            }
+            
+            // Обновляем позицию слайдера
+            function updateSlider() {
+                const cardWidth = cards[0].offsetWidth + 20; // width + gap
+                slider.style.transform = `translateX(-${currentPosition * cardWidth}px)`;
+                
+                // Обновляем активную точку
+                const dots = dotsContainer.querySelectorAll('.dot');
+                const activeDotIndex = Math.floor(currentPosition / cardsPerView);
+                
+                dots.forEach((dot, index) => {
+                    if (index === activeDotIndex) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+                
+                // Блокируем кнопки, если достигнут конец
+                prevBtn.disabled = currentPosition === 0;
+                nextBtn.disabled = currentPosition >= cardCount - cardsPerView;
+            }
+            
+            // Обработчики событий для кнопок
+            prevBtn.addEventListener('click', () => {
+                if (currentPosition > 0) {
+                    currentPosition -= cardsPerView;
+                    if (currentPosition < 0) currentPosition = 0;
+                    updateSlider();
+                }
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                if (currentPosition < cardCount - cardsPerView) {
+                    currentPosition += cardsPerView;
+                    if (currentPosition > cardCount - cardsPerView) {
+                        currentPosition = cardCount - cardsPerView;
+                    }
+                    updateSlider();
+                }
+            });
+            
+            // Инициализация
+            updateCardsPerView();
+            window.addEventListener('resize', updateCardsPerView);
+        });
+
+
+
+
+        
+    </script>
+</body>
+
+</html>
