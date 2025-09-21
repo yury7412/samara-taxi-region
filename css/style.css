@@ -166,7 +166,7 @@ a{
     margin-top: 10px !important;
 }
 
-.btn_order{
+.offcanvas-contacts .btn_order{
 	border: 1px solid #FFA214 !important;
     color: black !important;
     font-weight: 500 !important;
@@ -679,4 +679,5 @@ a{
                 display: block;
             }
         }
+
 
